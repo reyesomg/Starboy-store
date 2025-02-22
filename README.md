@@ -1,6 +1,4 @@
-# Starboy-store
-On-line Store 
-import React from "react";
+# Starboy-import React from "react";
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -71,38 +69,6 @@ export default function HomePage() {
           </Card>
         </div>
       </section>
-      <section id="sobre-nosotros" className="py-10 bg-gray-100">
-        <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8">Sobre Nosotros</h2>
-          <p className="text-center text-gray-700 max-w-3xl mx-auto">
-            En Star Boy, nos inspiramos en la sofisticación y el estilo casual de Los Ángeles. Combinamos lujo y autenticidad para ofrecer prendas exclusivas de alta calidad.
-          </p>
-        </div>
-      </section>
-      <section id="testimonios" className="py-10 container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">Testimonios</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="p-6 bg-white rounded-lg shadow-lg">
-            <p className="text-gray-700">"Excelente calidad y diseño. Me encanta cómo se siente usar estas prendas, realmente marcan la diferencia."</p>
-            <p className="mt-4 font-bold">- Juan Pérez</p>
-          </div>
-          <div className="p-6 bg-white rounded-lg shadow-lg">
-            <p className="text-gray-700">"El servicio es inmejorable y los productos reflejan un alto nivel de sofisticación. ¡Altamente recomendado!"</p>
-            <p className="mt-4 font-bold">- Carlos López</p>
-          </div>
-        </div>
-      </section>
-      <section id="contacto" className="py-10 bg-gray-50">
-        <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8">Contacto</h2>
-          <form className="max-w-xl mx-auto space-y-4">
-            <input type="text" placeholder="Tu Nombre" className="w-full p-3 border rounded" required />
-            <input type="email" placeholder="Tu Email" className="w-full p-3 border rounded" required />
-            <textarea placeholder="Tu Mensaje" className="w-full p-3 border rounded" rows="4" required></textarea>
-            <Button type="submit" className="w-full">Enviar Mensaje</Button>
-          </form>
-        </div>
-      </section>
       <footer className="bg-[#001F3F] text-white p-6">
         <div className="container mx-auto text-center">
           <div className="mb-4">
@@ -119,5 +85,4 @@ export default function HomePage() {
     </div>
   );
 }
-
-export default HomePage;
+          
